@@ -20,10 +20,20 @@ In this task, you will be connecting to a mongo database hosted over Azure Linux
 
    ```
    sudo apt install mongodb-server
+   ```
+   ```
    cd /etc
+   ```
+   ```
    sudo sed -i 's/bind_ip = 127.0.0.1/bind_ip = 0.0.0.0/g' /etc/mongodb.conf
+   ```
+   ```
    sudo sed -i 's/#port = 27017/port = 27017/g' /etc/mongodb.conf
+   ```
+   ```
    sudo service mongodb stop
+   ```
+   ```
    sudo service mongodb start
    ```
    
@@ -33,7 +43,11 @@ In this task, you will be connecting to a mongo database hosted over Azure Linux
 
    ```
    show dbs
+   ```
+   ```
    use contentdb
+   ```
+   ```
    show collections
    ```
    
@@ -47,7 +61,11 @@ In this task, you will be connecting to a mongo database hosted over Azure Linux
 
    ```
    cd ~/Cloud-Native-Application/labfiles/src/developer/content-init
+   ```
+   ```
    npm ci
+   ```
+   ```
    nodejs server.js
    ```     
 
