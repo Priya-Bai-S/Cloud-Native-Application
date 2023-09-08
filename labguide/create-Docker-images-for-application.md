@@ -37,9 +37,13 @@ In this task, you will be connecting to the Build agent VM using the Command pro
     > **Note:** If you recieve a output message stating - destination path 'Cloud-Native-Application' already exists and is not an empty directory. Please run the following commands and then reperform step - 4 of the task.
 
      ```
-        sudo su
-        rm -rf Cloud-Native-Application
-        exit
+     sudo su
+     ```
+     ```
+     rm -rf Cloud-Native-Application
+     ```
+     ```
+     exit
      ```   
      ![](media/cloudn.png)
     
@@ -109,7 +113,11 @@ In this task, you will be building the docker images to containerize the applica
 
     ```
     cd src/ContosoTraders.Ui.Website/src/services
+    ```
+    ```
     sudo chmod 777 configService.js
+    ```
+    ```
     vi configService.js
     ```
     
@@ -130,6 +138,8 @@ In this task, you will be building the docker images to containerize the applica
 
     ```
     cd
+    ```
+    ```
     cd Cloud-Native-Application/labfiles/src/ContosoTraders.Ui.Website
     ```
 
@@ -148,6 +158,8 @@ In this task, you will be building the docker images to containerize the applica
 
     ```
     cd
+    ```
+    ```
     cd Cloud-Native-Application/labfiles/
     ```
 
